@@ -5,7 +5,7 @@
   "main": "hello_world.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node http_server"
+    "start": "node Url_handling"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/RamanKumar00/NodeJS/issues"
   },
-  "homepage": "https://github.com/RamanKumar00/NodeJS#readme"
+  "homepage": "https://github.com/RamanKumar00/NodeJS#readme",
+  "dependencies": {
+    "url": "^0.11.4"
+  }
 }
