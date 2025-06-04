@@ -1,23 +1,23 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "description": "",
-  "main": "hello_world.js",
+  "description": "Nodejs tutorial",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node Url_handling"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RamanKumar00/NodeJS.git"
   },
-  "author": "",
+  "author": "Raman Kumar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RamanKumar00/NodeJS/issues"
   },
   "homepage": "https://github.com/RamanKumar00/NodeJS#readme",
   "dependencies": {
-    "url": "^0.11.4"
+    "express": "^5.1.0",
+    "lodash": "^4.17.21"
   }
 }
