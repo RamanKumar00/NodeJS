@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const express = require('express');
 const app = express();
 const port = 3000;
@@ -59,3 +60,10 @@ app.use('/person', personRoutes);
 app.listen(port, () => {
   console.log(`app listening on port ${port}`);
 });
+=======
+console.log("server is running");
+const notes = require ("./notes.js");
+
+var result = notes.add(10,9);
+console.log(result);
+>>>>>>> 8eeb4eb95cf35ec59b2851a65d6466b220b3fa53
