@@ -25,4 +25,5 @@ db.on('disconnected',() => {
 //     }, 2000);
 // })
 
+// export the db coneection to server
 module.exports = db;
