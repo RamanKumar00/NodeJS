@@ -1,11 +1,11 @@
 const express = require('express');
 const app = express();
-const port = 3000;
 const db = require("./db");
-
+require('dotenv').config(); // Load environment variables from .env file
 
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
+const port = process.env.port || 3000; // Use environment variable or default to 3000
 
 
 const MenuItem = require('./module/menuItems');
@@ -28,7 +28,7 @@ app.post('/menuItems', async (req, res) => {
     const data = req.body;
     console.log(data);
 
-    const newItems = new MenuItem(data); // ✅ FIXED here
+    const newItems = new MenuItem(data); //  FIXED here
 
     const response = await newItems.save();
     console.log('data Saved');

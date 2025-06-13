@@ -17,14 +17,6 @@
   },
   "homepage": "https://github.com/RamanKumar00/NodeJS#readme",
   "dependencies": {
-<<<<<<< HEAD
-    "body-parse": "^0.1.0",
-    "express": "^5.1.0",
-    "lodash": "^4.17.21",
-    "mongoose": "^8.15.1"
-=======
-    "express": "^5.1.0",
-    "lodash": "^4.17.21"
->>>>>>> 8eeb4eb95cf35ec59b2851a65d6466b220b3fa53
+    "dotenv": "^16.5.0"
   }
 }
